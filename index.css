@@ -17,20 +17,84 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
+}
+
+.headerlogo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    flex-basis: 400px;
 }
 
 .headerlink {
     display: flex;
     list-style: none;
-    gap: 12px;
+    justify-content: flex-end;
+    flex-basis: 600px;
+    gap: 25px;
 }
 
 .headerlink a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.herocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 40px;
+}
+
+.herocontainerleft {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    gap: 20px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.herosubtext p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.signupbutton {
+    padding: 10px 35px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #f9faf8;
+    align-self: flex-start;
+}
+
+.imageplaceholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-size: 18px;
+    height: 300px;
+    flex-basis: 600px;
 }
 
 
