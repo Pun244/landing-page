@@ -1,10 +1,62 @@
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Black.ttf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-BlackItalic.ttf);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Roboto;
 }
 
 .topcontainer {
@@ -23,7 +75,6 @@ body {
 
 .headerlogo {
     font-size: 24px;
-    font-weight: bold;
     color: #f9faf8;
     flex-basis: 400px;
 }
@@ -40,6 +91,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 300;
 }
 
 .herocontainer {
@@ -74,6 +126,7 @@ p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
+    font-weight: 300;
 }
 
 .signupbutton {
@@ -82,7 +135,7 @@ p {
     border-radius: 10px;
     border: 0px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     color: #f9faf8;
     align-self: flex-start;
 }
@@ -94,6 +147,7 @@ p {
     align-items: center;
     background-color: gray;
     font-size: 18px;
+    font-weight: 300;
     height: 270px;
     flex-basis: 600px;
 }
@@ -141,6 +195,7 @@ p {
     font-size: 23px;
     color: #1f2937;
     text-align: center;
+    font-weight: 300;
 }
 
 .quotecontainer {
@@ -157,11 +212,12 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 750px;
+    width: 850px;
 }
 
 .quotetext {
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
     color: #1f2937;
     line-height: 1.2em;
@@ -172,7 +228,7 @@ p {
     font-weight: bold;
     font-size: 25px;
     color: #1f2937;
-    padding-right: 20px;
+    margin-right: 50px;
 }
 
 .signupcontainer {
@@ -208,6 +264,7 @@ p {
 .signupsubtext {
     font-size: 18px;
     color: #f9faf8;
+    font-weight: 300;
 }
 
 .signupbutton2 {
@@ -216,7 +273,7 @@ p {
     border: 2px solid white;
     color: #f9faf8;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     padding: 10px 35px;
     height: 50px;
 }
@@ -229,4 +286,5 @@ p {
 
 .footertext {
     font-size: 18px;
+    font-weight: 300;
 }
