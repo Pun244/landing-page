@@ -97,4 +97,79 @@ p {
     flex-basis: 600px;
 }
 
+.infocontainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
 
+.infotext {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.iteminfocontainer {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.info {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.emptybox {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.text {
+    font-size: 23px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quotecontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e5e7eb;
+}
+
+.quoteitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 1.2em;
+}
+
+.quoteauthor {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1f2937;
+    padding-right: 20px;
+}
