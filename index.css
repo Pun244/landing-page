@@ -62,28 +62,29 @@ body {
 .topcontainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    margin: auto;
     background-color: #1f2937;
 }
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    max-width: 1080px;
+    margin: auto;
 }
 
 .headerlogo {
     font-size: 24px;
     color: #f9faf8;
-    flex-basis: 400px;
 }
 
 .headerlink {
     display: flex;
     list-style: none;
-    justify-content: flex-end;
-    flex-basis: 600px;
+    justify-content: center;
     gap: 25px;
 }
 
@@ -96,18 +97,21 @@ body {
 
 .herocontainer {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between  ;
     align-items: center;
     width: 100%;
+    max-width: 1080px;
+    margin: auto;
     padding-top: 140px;
     padding-bottom: 140px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .herocontainerleft {
     display: flex;
     flex-direction: column;
-    flex-basis: 400px;
+    max-width: 450px;
     gap: 20px;
 }
 
@@ -142,14 +146,14 @@ p {
 
 .imageplaceholder {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: gray;
     font-size: 18px;
     font-weight: 300;
-    height: 270px;
-    flex-basis: 600px;
+    height: 280px;
+    width: 1080px;
+    max-width: 600px;
 }
 
 .infocontainer {
@@ -175,6 +179,7 @@ p {
     justify-content: center;
     width: 100%;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -212,7 +217,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 850px;
+    width: 1080px;
+    max-width: 800px;
 }
 
 .quotetext {
@@ -221,6 +227,7 @@ p {
     font-style: italic;
     color: #1f2937;
     line-height: 1.2em;
+    max-width: 800px;
 }
 
 .quoteauthor {
@@ -228,7 +235,6 @@ p {
     font-weight: bold;
     font-size: 25px;
     color: #1f2937;
-    margin-right: 50px;
 }
 
 .signupcontainer {
@@ -242,6 +248,7 @@ p {
 
 .signupitem {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #3882f6;
     width: 1000px;
@@ -252,6 +259,7 @@ p {
 .signuptextcontainer {
     display: flex;
     flex-direction: column;
+    padding-left: 25px;
     gap: 5px;
 }
 
@@ -274,7 +282,8 @@ p {
     color: #f9faf8;
     font-weight: bold;
     font-size: 17px;
-    padding: 10px 35px;
+    align-self: center;
+    padding: 5px 30px;
     height: 50px;
 }
 
